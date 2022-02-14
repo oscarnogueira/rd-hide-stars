@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["https://plugcrm.net/*"],
-      "js": ["/hide_stars.js"],
+      "js": ["/hide_stars.js", "/show_values.js"],
       "run_at": "document_start"
     }
   ],
